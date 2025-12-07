@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package demo;
+
+//proto3 默认不生成 C++ Service 代码,下述选项用于生成service
+option cc_generic_services = true;
+
+message EchoRequest {
+  string message = 1;
+}
+
+message EchoResponse {
+  string message = 1;
+}
+
+// 生成的C++里会有：class EchoService : public ::google::protobuf::Service
+service EchoService {
+  rpc Echo(EchoRequest) returns (EchoResponse);
+}

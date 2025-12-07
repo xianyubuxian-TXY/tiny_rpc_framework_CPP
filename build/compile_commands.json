@@ -1,0 +1,56 @@
+[
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_meta.pb.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_meta.pb.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/rpc/rpc_codec.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_codec.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_codec.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_codec.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_dispatcher.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_dispatcher.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/rpc/rpc_channel.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_channel.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_channel.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_channel.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/net_muduo/muduo_network_server.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/net_muduo/muduo_network_server.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/echo_server.dir/echo.pb.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",
+  "output": "examples/echo/CMakeFiles/echo_server.dir/echo.pb.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/echo_server.dir/echo_server_main.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo_server_main.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo_server_main.cc",
+  "output": "examples/echo/CMakeFiles/echo_server.dir/echo_server_main.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/echo_client.dir/echo_client_main.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo_client_main.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo_client_main.cc",
+  "output": "examples/echo/CMakeFiles/echo_client.dir/echo_client_main.cc.o"
+},
+{
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/echo_client.dir/echo.pb.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",
+  "output": "examples/echo/CMakeFiles/echo_client.dir/echo.pb.cc.o"
+}
+]

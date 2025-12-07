@@ -1,0 +1,18 @@
+syntax ="proto3";
+
+package rpc;
+
+/*
+网络帧格式：
+    - 帧体改为：[uint32_t meta_len][meta_bytes][body_bytes]
+    - 整帧为：[uint32_t total_len][uint32_t meta_len][meta][body]。
+*/
+//RPC 元信息
+message RpcMeta{
+    string service_name = 1;  // 如 "order.OrderService"
+    string method_name  = 2;  // 如 "GetOrder"
+    uint64 request_id   = 3;  // 用于匹配请求/响应
+    bool   is_request   = 4;  // true 请求，false 响应
+    int32  error_code   = 5;  // 0表示OK , 1表示error
+    string error_msg    = 6;
+}

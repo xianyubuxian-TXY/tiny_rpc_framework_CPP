@@ -1,0 +1,11 @@
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/CMakeFiles/rebuild_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src/CMakeFiles/tiny_rpc.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src/CMakeFiles/rebuild_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/CMakeFiles/rebuild_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/CMakeFiles/echo_server.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/CMakeFiles/echo_client.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/CMakeFiles/edit_cache.dir
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/CMakeFiles/rebuild_cache.dir
