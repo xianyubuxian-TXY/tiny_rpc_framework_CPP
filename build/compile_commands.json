@@ -30,6 +30,12 @@
   "output": "src/CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o"
 },
 {
+  "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src",
+  "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc",
+  "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc",
+  "output": "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o"
+},
+{
   "directory": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo",
   "command": "/usr/bin/g++  -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo -I/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include -g -std=c++17 -o CMakeFiles/echo_server.dir/echo.pb.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",
   "file": "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/examples/echo/echo.pb.cc",

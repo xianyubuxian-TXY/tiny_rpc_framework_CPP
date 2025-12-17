@@ -240,17 +240,16 @@ examples/echo/CMakeFiles/echo_server.dir/echo_server_main.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/in.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net_muduo/muduo_network_server.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net/network_server.h \
- /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net/frame_codec.h \
- /usr/include/c++/13/cstdint \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net_muduo/muduo_rpc_connection.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_connection.h \
  /usr/include/muduo/net/TcpConnection.h /usr/include/muduo/net/Buffer.h \
  /usr/include/muduo/net/Endian.h /usr/include/c++/13/algorithm \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/muduo/base/Logging.h /usr/include/muduo/base/LogStream.h \
- /usr/include/muduo/net/TcpServer.h /usr/include/muduo/base/Atomic.h \
- /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
- /usr/include/c++/13/bits/stl_map.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net/frame_codec.h \
+ /usr/include/c++/13/cstdint /usr/include/muduo/net/TcpServer.h \
+ /usr/include/muduo/base/Atomic.h /usr/include/c++/13/map \
+ /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
  /usr/include/c++/13/bits/stl_multimap.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_dispatcher.h \
  /usr/local/include/google/protobuf/service.h \
@@ -355,5 +354,7 @@ examples/echo/CMakeFiles/echo_server.dir/echo_server_main.cc.o: \
  /usr/local/include/google/protobuf/extension_set.h \
  /usr/include/c++/13/cassert \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_codec.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_server.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_server_factory.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo_server_impl.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo.pb.h

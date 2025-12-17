@@ -139,13 +139,28 @@ src/CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.s"
 	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/net_muduo/muduo_network_server.cc -o CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.s
 
+src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o: src/CMakeFiles/tiny_rpc.dir/flags.make
+src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o: /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc
+src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o: src/CMakeFiles/tiny_rpc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o"
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o -MF CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o.d -o CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o -c /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc
+
+src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.i"
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc > CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.i
+
+src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.s"
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc -o CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.s
+
 # Object files for target tiny_rpc
 tiny_rpc_OBJECTS = \
 "CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o" \
 "CMakeFiles/tiny_rpc.dir/rpc/rpc_codec.cc.o" \
 "CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o" \
 "CMakeFiles/tiny_rpc.dir/rpc/rpc_channel.cc.o" \
-"CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o"
+"CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o" \
+"CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o"
 
 # External object files for target tiny_rpc
 tiny_rpc_EXTERNAL_OBJECTS =
@@ -155,9 +170,10 @@ tiny_rpc_EXTERNAL_OBJECTS =
 /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o
 /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/rpc/rpc_channel.cc.o
 /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/net_muduo/muduo_network_server.cc.o
+/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o
 /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/build.make
 /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a: src/CMakeFiles/tiny_rpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/lib/libtiny_rpc.a"
 	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && $(CMAKE_COMMAND) -P CMakeFiles/tiny_rpc.dir/cmake_clean_target.cmake
 	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tiny_rpc.dir/link.txt --verbose=$(VERBOSE)
 

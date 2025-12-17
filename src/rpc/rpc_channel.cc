@@ -63,6 +63,7 @@ void SimpleRpcChannel::CallMethod(const MethodDescriptor* method,
 // 网络层收到一帧数据后调用
 void SimpleRpcChannel::OnMessage(const std::string& frame)
 {
+    
     rpc::RpcMeta meta;
     std::string payload;
     if (!RpcCodec::DecodeFrame(frame, &meta, &payload)) {

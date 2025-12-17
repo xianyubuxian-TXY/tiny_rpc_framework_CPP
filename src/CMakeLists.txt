@@ -2,7 +2,8 @@ set(SOURCES_CODE rpc/rpc_meta.pb.cc
                  rpc/rpc_codec.cc
                  rpc/rpc_dispatcher.cc
                  rpc/rpc_channel.cc
-                 net_muduo/muduo_network_server.cc)
+                 net_muduo/muduo_network_server.cc
+                 rpc/rpc_server_factory.cc)
 
 add_library(tiny_rpc ${SOURCES_CODE})
 

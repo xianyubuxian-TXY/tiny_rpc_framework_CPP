@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o.d"
   "CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o"
   "CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o.d"
+  "CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o"
+  "CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

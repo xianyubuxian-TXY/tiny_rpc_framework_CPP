@@ -349,4 +349,7 @@ examples/echo/CMakeFiles/echo_client.dir/echo_client_main.cc.o: \
  /usr/include/c++/13/cassert \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_controller.h \
  /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net/frame_codec.h \
- /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo.pb.h
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net/network_server.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/examples/echo/echo.pb.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/net_muduo/muduo_rpc_connection.h \
+ /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/include/rpc/rpc_connection.h

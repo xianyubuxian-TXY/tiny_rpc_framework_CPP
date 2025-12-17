@@ -250,6 +250,30 @@ rpc/rpc_meta.pb.cc.s:
 	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tiny_rpc.dir/build.make src/CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.s
 .PHONY : rpc/rpc_meta.pb.cc.s
 
+rpc/rpc_server_factory.o: rpc/rpc_server_factory.cc.o
+.PHONY : rpc/rpc_server_factory.o
+
+# target to build an object file
+rpc/rpc_server_factory.cc.o:
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tiny_rpc.dir/build.make src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o
+.PHONY : rpc/rpc_server_factory.cc.o
+
+rpc/rpc_server_factory.i: rpc/rpc_server_factory.cc.i
+.PHONY : rpc/rpc_server_factory.i
+
+# target to preprocess a source file
+rpc/rpc_server_factory.cc.i:
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tiny_rpc.dir/build.make src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.i
+.PHONY : rpc/rpc_server_factory.cc.i
+
+rpc/rpc_server_factory.s: rpc/rpc_server_factory.cc.s
+.PHONY : rpc/rpc_server_factory.s
+
+# target to generate assembly for a file
+rpc/rpc_server_factory.cc.s:
+	cd /home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/tiny_rpc.dir/build.make src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.s
+.PHONY : rpc/rpc_server_factory.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,6 +298,9 @@ help:
 	@echo "... rpc/rpc_meta.pb.o"
 	@echo "... rpc/rpc_meta.pb.i"
 	@echo "... rpc/rpc_meta.pb.s"
+	@echo "... rpc/rpc_server_factory.o"
+	@echo "... rpc/rpc_server_factory.i"
+	@echo "... rpc/rpc_server_factory.s"
 .PHONY : help
 
 

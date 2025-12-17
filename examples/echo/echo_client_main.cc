@@ -8,6 +8,7 @@
 #include "rpc/rpc_controller.h"
 #include "net/frame_codec.h"
 #include "echo.pb.h"
+#include <net_muduo/muduo_rpc_connection.h>
 
 using namespace muduo;
 using namespace muduo::net;
@@ -58,9 +59,11 @@ private:
         inbuf_.append(buffer->peek(), buffer->readableBytes());
         buffer->retrieveAll();
 
-        FrameCodec::OnData(inbuf_, [this](const std::string& frame) {
-            channel_.OnMessage(frame);
+        codec_.OnData(inbuf_,std::make_shared<MuduoRpcConnection>(conn),
+            [this](const std::shared_ptr<RpcConnection>& conn, const std::string& frame) {
+                channel_.OnMessage(frame);
         });
+
     }
 
     // 调用 Echo RPC
@@ -94,11 +97,12 @@ private:
 private:
     TcpClient client_;
     TcpConnectionPtr conn_;
+    FrameCodec codec_;
 
     std::string inbuf_; // 来自这个连接的接收缓冲区
 
     // RPC 相关
-    SimpleRpcChannel channel_;                 // 通道
+    SimpleRpcChannel channel_;            // 通道
     demo::EchoService_Stub stub_;        // 业务 Stub
     demo::EchoRequest request_;          // 请求 DTO
     demo::EchoResponse response_;        // 响应 DTO

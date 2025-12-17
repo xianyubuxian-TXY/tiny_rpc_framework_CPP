@@ -10,6 +10,7 @@
 
 #include "rpc_meta.pb.h"
 
+/*客户端使用*/
 class SimpleRpcChannel : public google::protobuf::RpcChannel {
 public:
     using SendFunction = std::function<void(const std::string&)>;

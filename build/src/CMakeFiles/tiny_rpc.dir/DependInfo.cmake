@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_codec.cc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_codec.cc.o" "gcc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_codec.cc.o.d"
   "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_dispatcher.cc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o" "gcc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_dispatcher.cc.o.d"
   "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_meta.pb.cc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o" "gcc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_meta.pb.cc.o.d"
+  "/home/student/Code/C++/MiddleWare/distributed_framework/tiny_rpc_framework/src/rpc/rpc_server_factory.cc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o" "gcc" "src/CMakeFiles/tiny_rpc.dir/rpc/rpc_server_factory.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
